@@ -55,6 +55,7 @@ dependencies:
   equatable: ^2.0.5
   badges: ^3.1.2
   font_awesome_flutter: ^10.7.0
+  syncfusion_flutter_calendar: ^25.1.37+1
 
 dev_dependencies:
   flutter_test:
