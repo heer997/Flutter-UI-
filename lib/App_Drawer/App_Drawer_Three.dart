@@ -34,6 +34,8 @@ class AppDrawerThree extends StatelessWidget {
           child: Column(
             children: [
               ExpansionTile(
+                textColor: Colors.blue,
+                iconColor: Colors.blue,
                 title: const Text(
                   "Parent Category 1",
                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -48,16 +50,32 @@ class AppDrawerThree extends StatelessWidget {
                   ListTile(
                     title: const Text("Child Category 1"),
                     subtitle: const Text("child category 1"),
-                    onTap: () {},
+                    trailing: const Text(
+                      "1",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 20.0),
+                    ),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
                   ),
                   ListTile(
                     title: const Text("Child Category 2"),
                     subtitle: const Text("child category 2"),
-                    onTap: () {},
+                    trailing: const Text(
+                      "2",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 20.0),
+                    ),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
                   ),
                 ],
               ),
               ExpansionTile(
+                textColor: Colors.blue,
+                iconColor: Colors.blue,
                 title: const Text(
                   "Parent Category 2",
                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -72,12 +90,26 @@ class AppDrawerThree extends StatelessWidget {
                   ListTile(
                     title: const Text("Child Category 1"),
                     subtitle: const Text("child category 1"),
-                    onTap: () {},
+                    trailing: const Text(
+                      "1",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 20.0),
+                    ),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
                   ),
                   ListTile(
                     title: const Text("Child Category 2"),
                     subtitle: const Text("child category 2"),
-                    onTap: () {},
+                    trailing: const Text(
+                      "2",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 20.0),
+                    ),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
                   ),
                 ],
               ),
