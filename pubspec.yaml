@@ -95,17 +95,62 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: FontsMain
+      fonts:
+        - asset: assets/fonts/TiltPrism-Regular-VariableFont_XROT,YROT.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    - family: FontsOne
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+    - family: FontsTwo
+      fonts:
+        - asset: assets/fonts/Orbitron-VariableFont_wght.ttf
+    - family: FontsThree
+      fonts:
+        - asset: assets/fonts/Baloo2-VariableFont_wght.ttf
+    - family: FontsFour
+      fonts:
+        - asset: assets/fonts/AlfaSlabOne-Regular.ttf
+    - family: FontsFive
+      fonts:
+        - asset: assets/fonts/Sacramento-Regular.ttf
+    - family: FontsSix
+      fonts:
+        - asset: assets/fonts/RubikIso-Regular.ttf
+    - family: FontsSeven
+      fonts:
+        - asset: assets/fonts/KaushanScript-Regular.ttf
+    - family: FontsEight
+      fonts:
+        - asset: assets/fonts/MrDafoe-Regular.ttf
+    - family: FontsNine
+      fonts:
+        - asset: assets/fonts/RubikPixels-Regular.ttf
+    - family: FontsTen
+      fonts:
+        - asset: assets/fonts/AtkinsonHyperlegible-Regular.ttf
+    - family: FontsEleven
+      fonts:
+        - asset: assets/fonts/TenorSans-Regular.ttf
+    - family: FontsTwelve
+      fonts:
+        - asset: assets/fonts/Overpass-VariableFont_wght.ttf
+    - family: FontsThirteen
+      fonts:
+        - asset: assets/fonts/Raleway-VariableFont_wght.ttf
+    - family: FontsFourteen
+      fonts:
+        - asset: assets/fonts/Comfortaa-VariableFont_wght.ttf
+    - family: FontsFifteen
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+    - family: FontsSixteen
+      fonts:
+        - asset: assets/fonts/Fredoka-VariableFont_wdth,wght.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
